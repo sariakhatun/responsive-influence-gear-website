@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  /* shared styles */
+  .display-flex{
+    display: flex;
+  }
+  .white{
+    color: white;
+  }
+  .color{
+    color: rgba(58, 58, 58, 1);
+    /* 3A3A3A */
+  }
+  .btn-primary{
+    width:164px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    background-color:rgba(224, 44, 109, 1);
+  }
+  /* header section */
+  .navbar{
+    justify-content: space-around;
+    margin: 0 auto;
+
+  }
+  
+  .influencer-products{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+  .nav-links{
+    gap: 34px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+  }
+  .nav-link{
+    list-style: none;
+    
+  }
+  .nav-link > a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+
+  }
+  h1{
+    font-weight: 700;
+    font-size: 3.25rem;
+    max-width: 582px;
+    max-height: 261px;
+    margin-bottom: 16px;
+    color: rgba(58, 58, 58, 1);
+  }
+  .about{
+    position: 120 260;
+  }
+  .about-description{
+    max-width: 505px;
+    color: rgba(58, 58, 58, 1);
+  }
+  .about-container{
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .image{
+    background-image: url("../images/Circle\ design.svg");
+    /* background-position: 835px 211px; */
+    
+    /* margin-left: -100px; */
+  }
+  .image > img{
+    width: 100%;
+   
+  } 
