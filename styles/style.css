@@ -204,6 +204,23 @@
     margin-left: 150px;
 
   }
+  .footer{
+    max-width: 1450px;
+    background-color: rgba(10, 8, 38, 1);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .ico{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .ico > a{
+    color: white;
+  }
   /* responsive for phone */
   @media screen  and (max-width:576px) {
     .navbar,.nav-links{
@@ -264,7 +281,7 @@
     margin: 0 auto;
   }
   .gear{
-    width: 300px;
+    width: 370px;
     
   }
   .pic{
